@@ -1,0 +1,66 @@
+
+table.table.doNotRender {
+    display: none;
+}
+
+table.table.dataTable {
+    margin: 14px 0 !important;
+}
+
+table.dataTable thead th {
+    background: rgba(242, 242,253, 0.8);
+    color: #6a1677;
+}
+
+table.dataTable tr.even:hover td,
+table.dataTable tr.odd:hover td,
+table.dataTable.display tbody tr.even:hover > .sorting_1,
+table.dataTable.display tbody tr.odd:hover > .sorting_1 {
+    background-color: rgb(247, 228, 251);
+    cursor: pointer;
+}
+
+table.dataTable tr.even.selected td,
+table.dataTable tr.odd.selected td,
+table.dataTable.display tbody tr.even.selected > .sorting_1,
+table.dataTable.display tbody tr.odd.selected > .sorting_1 {
+    background-color: #6c1679;
+}
+
+table.dataTable th.dt-center,
+table.dataTable td.dt-center {
+    text-align: center;
+}
+
+table.dataTable th.dt-right,
+table.dataTable td.dt-right {
+    text-align: right;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+    font-family: 'Glyphicons Halflings';
+}
+
+table.dataTable thead .sorting:after {
+    content: '\e234'
+}
+
+table.dataTable thead .sorting_asc:after {
+    content: '\e253';
+    opacity: 0.8;
+    color: #6a1677;
+}
+
+table.dataTable thead .sorting_desc:after {
+    content: '\e252';
+    opacity: 0.8;
+    color: #6a1677;
+}
+
+table.dataTable tbody tr td div.input-group {
+    margin: 0;
+}
